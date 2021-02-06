@@ -5,25 +5,25 @@ In this task, I used a neural network approach to predict desired feature Y. I t
 Descriptions of the files under the repo can be found below, please be aware of the comments in the files as well.
 
 
-##ACME-HappinessSurvey2020.csv
+## ACME-HappinessSurvey2020.csv
 It is the dataset that consists of 6 attributes and 1 result label rows and 126 data rows.
 
-##create_correlation.py
+## create_correlation.py
 Python script to create correlation matrix of dataset and convert to a csv file namely "Correlation Matrix.csv". That csv file ist used to drop unnecessary columns from dataset.
 
-##create_model.py
+## create_model.py
 This python script defines and compiles neural network model to predict desired attribute.
 
-##format_input.py
+## format_input.py
 It is the python script that is responsible for removing undesired columns, adding extra attributes using observations from "Correlation Matrix.csv" to provide a better prediction accuracy to model. It also oversamples the dataset.
 
-##fit.py
+## fit.py
 It simply calls fit() method with the training data derived from by "format_input.py".
 
-##evaluate.py
+## evaluate.py
 It evaluates model with the test data derived from by "format_input.py".
 
-##main.sh
+## main.sh
 This shell script is used for a automated pipelining of the process. It runs the python scripts in order to train and evaluate the model successfully.
 
 
