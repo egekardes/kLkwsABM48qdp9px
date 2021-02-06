@@ -7,7 +7,7 @@ from format_input import create_train_data
 from math import floor
 
 
-filename = 'formatted.csv' # TO BE CHANGED
+filename = 'formatted.csv'
 num_rows = 0
 for row in open(filename):
     num_rows += 1
