@@ -6,10 +6,10 @@ Descriptions of the files under the repo can be found below, please be aware of 
 
 
 ## ACME-HappinessSurvey2020.csv
-It is the dataset that consists of 6 attributes and 1 result label rows and 126 data rows.
+It is the dataset that consists of 6 attributes and 1 result label columns and 126 data rows.
 
 ## create_correlation.py
-Python script to create correlation matrix of dataset and convert to a csv file namely "Correlation Matrix.csv". That csv file ist used to drop unnecessary columns from dataset.
+Python script to create correlation matrix of dataset and convert to a csv file namely "Correlation Matrix.csv". That csv file is used to drop unnecessary columns from dataset and generate and add new columns to the dataset.
 
 ## create_model.py
 This python script defines and compiles neural network model to predict desired attribute.
