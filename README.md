@@ -24,7 +24,7 @@ It simply calls fit() method with the training data derived from by "format_inpu
 It evaluates model with the test data derived from by "format_input.py".
 
 ## main.sh
-This shell script is used for a automated pipelining of the process. It runs the python scripts in order to train and evaluate the model successfully.
+This shell script is used for a automated pipelining of the process. It runs the python scripts in order to train and evaluate the model successfully. Be sure main.sh is executable before you use. Simply **chmod +x main.sh**
 
 
 
